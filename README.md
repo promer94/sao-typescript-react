@@ -1,6 +1,6 @@
 # sao-my-react
 
-> my react sao
+> sao-typescript-react
 
 ## Usage
 
@@ -15,7 +15,7 @@ npm i -g sao
 ### From git
 
 ```bash
-sao promer/sao-my-react my-project
+sao promer/sao-typescript-react my-project
 ```
 
 ## License
