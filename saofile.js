@@ -40,7 +40,8 @@ module.exports = {
   actions: [
     {
       type: 'add',
-      files: '**'
+      files: '**',
+      transformExclude: 'public/**'
     },
     {
       type: 'move',

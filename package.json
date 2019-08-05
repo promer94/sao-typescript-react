@@ -1,12 +1,12 @@
 {
   "name": "sao-my-react",
   "version": "0.0.0",
-  "description": "my react sao",
+  "description": "my react template",
   "repository": {
-    "url": "yixuan xu/sao-my-react",
+    "url": "promer94/sao-my-react",
     "type": "git"
   },
-  "author": "yixuan xu <yixuanxu94@gmail.com> (github.com/yixuan xu)",
+  "author": "yixuan xu <yixuanxu94@gmail.com> (github.com/promer94)",
   "license": "MIT",
   "files": [
     "saofile.js",
