@@ -1,9 +1,9 @@
 {
-  "name": "sao-my-react",
-  "version": "0.0.0",
-  "description": "my react template",
+  "name": "sao-typescript-react",
+  "version": "1.0.0",
+  "description": "react typescript template",
   "repository": {
-    "url": "promer94/sao-my-react",
+    "url": "promer94/sao-typescript-react",
     "type": "git"
   },
   "author": "yixuan xu <yixuanxu94@gmail.com> (github.com/promer94)",
