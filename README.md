@@ -15,7 +15,7 @@ npm i -g sao
 ### From git
 
 ```bash
-sao promer/sao-typescript-react my-project
+sao promer94/sao-typescript-react my-project
 ```
 
 ## License
