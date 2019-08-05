@@ -12,18 +12,12 @@ yarn global add sao
 npm i -g sao
 ```
 
-### From npm
-
-```bash
-sao my-react my-project
-```
-
 ### From git
 
 ```bash
-sao yixuan xu/sao-my-react my-project
+sao promer/sao-my-react my-project
 ```
 
 ## License
 
-MIT &copy; [yixuan xu](github.com/yixuan xu)
+MIT &copy; [yixuan xu](github.com/promer94)
