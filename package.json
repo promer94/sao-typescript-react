@@ -1,0 +1,25 @@
+{
+  "name": "sao-my-react",
+  "version": "0.0.0",
+  "description": "my react sao",
+  "repository": {
+    "url": "yixuan xu/sao-my-react",
+    "type": "git"
+  },
+  "author": "yixuan xu <yixuanxu94@gmail.com> (github.com/yixuan xu)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}
