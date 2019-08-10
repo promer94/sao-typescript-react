@@ -1,21 +1,15 @@
 {
-  "name": "template",
-  "version": "0.1.0",
+  "name": "react-typescript-template",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.15",
-    "@poi/plugin-typescript": "^12.2.1",
-    "@types/jest": "24.0.16",
-    "@types/node": "12.6.9",
-    "@types/react": "16.8.24",
-    "@types/react-dom": "16.8.5",
-    "react": "^16.8.6",
-    "react-dom": "npm:@hot-loader/react-dom",
-    "typescript": "^3.5.3"
+    "react": "^16.9.0",
+    "react-dom": "npm:@hot-loader/react-dom"
   },
   "scripts": {
     "start": "poi --serve",
-    "build": "poi --prod",
+    "build": "poi --prod --bundle-report",
     "commit": "git cz"
   },
   "browserslist": {
@@ -36,7 +30,14 @@
     }
   },
   "devDependencies": {
+    "@poi/plugin-typescript": "^12.2.1",
+    "typescript": "^3.5.3",
+    "@types/jest": "24.0.16",
+    "@types/node": "12.6.9",
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.8.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@poi/plugin-bundle-report": "^12.1.1",
     "@types/poi": "^12.5.0",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
