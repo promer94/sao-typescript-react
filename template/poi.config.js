@@ -4,7 +4,12 @@ module.exports = {
     publicUrl: process.env.POI_APP_PUBLIC_URL
   },
   plugins: [
-    '@poi/plugin-typescript',
+    {
+      resolve: '@poi/plugin-typescript',
+      options: {
+        babel: true
+      }
+    },
     {
       resolve: '@poi/bundle-report',
       options: {}

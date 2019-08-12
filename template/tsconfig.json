@@ -16,7 +16,7 @@
     "allowUnreachableCode": false,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "es2015",
     "noUnusedLocals": true,
     "pretty": true,
     "removeComments": true,
