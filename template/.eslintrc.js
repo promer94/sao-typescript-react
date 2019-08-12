@@ -13,7 +13,8 @@ module.exports = {
   },
   env: {
     browser: true,
-    node: true
+    node: true,
+    jest: true
   },
   rules: {
     'react/jsx-tag-spacing': 'off'
