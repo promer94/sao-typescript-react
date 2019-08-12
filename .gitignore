@@ -2,3 +2,4 @@
 node_modules
 *.log
 template/dist
+template/yarn.lock
