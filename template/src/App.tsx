@@ -1,10 +1,9 @@
 /** @jsx jsx */
 import { jsx, css, Global } from '@emotion/core'
-import React from 'react'
-import logo from './logo.svg'
+import React, { useState } from 'react'
 import { hot } from 'react-hot-loader/root'
 
-const global = css`
+const normalize = css`
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
@@ -35,38 +34,30 @@ const text = css`
   text-align: center;
 `
 
-const logImg = css`
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-`
-
 const link = css`
   color: #61dafb;
 `
 
 const App: React.FC = () => {
+  const [tips, setTips] = useState('react is awesome')
   return (
     <React.Fragment>
-      <Global styles={global} />
+      <Global styles={normalize} />
       <div css={text}>
         <header css={header}>
-          <img src={logo} css={logImg} alt="logo" />
           <a
             css={link}
-            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
+            href="https://reactjs.org"
+            onClick={e => {
+              e.preventDefault()
+              setTips(value =>
+                value === 'react is awesome' ? 'use it' : 'react is awesome'
+              )
+            }}
           >
-            react is awesome
+            {tips}
           </a>
         </header>
       </div>
