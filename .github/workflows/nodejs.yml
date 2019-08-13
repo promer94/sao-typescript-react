@@ -16,4 +16,5 @@ jobs:
     - name: npm install, build, and test
       run: |
         yarn install
+        rm -rf test/snapshot
         yarn test
