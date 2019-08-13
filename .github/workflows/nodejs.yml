@@ -15,5 +15,5 @@ jobs:
         version: 10.x
     - name: npm install, build, and test
       run: |
-        npm install
-        npm test
+        yarn install
+        yarn test
