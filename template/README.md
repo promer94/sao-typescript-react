@@ -1,27 +1,25 @@
+<h1 align="center"> <%= name %> 👋</h1>
+
 ## Install
 
 ```sh
 yarn
 ```
 
-## Usage
-
-developement
+## Dev
 
 ```sh
 yarn start
 ```
 
-production
+## Build
 
 ```sh
 yarn build
 ```
 
-## Show your support
+## Test
 
-Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+```sh
+yarn test
+```
