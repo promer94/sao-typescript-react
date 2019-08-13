@@ -41,7 +41,10 @@ module.exports = {
     {
       type: 'add',
       files: '**',
-      transformExclude: 'public/**'
+      transformExclude: 'public/**',
+      filters: {
+        'yarn.lock': false
+      }
     },
     {
       type: 'move',
