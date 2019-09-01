@@ -7,11 +7,11 @@ module.exports = {
     },
     development: {
       presets: ['poi/babel'],
-      plugins: [['emotion', { sourceMap: true }], 'react-hot-loader/babel']
+      plugins: [['emotion', { sourceMap: true }]]
     },
     test: {
       presets: ['poi/babel'],
-      plugins: [['emotion'], 'react-hot-loader/babel']
+      plugins: [['emotion']]
     }
   }
 }
