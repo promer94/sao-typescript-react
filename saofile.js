@@ -1,5 +1,4 @@
 const superb = require('superb')
-
 module.exports = {
   prompts() {
     return [
@@ -12,7 +11,7 @@ module.exports = {
       {
         name: 'description',
         message: 'How would you descripe the new project',
-        default: `my ${superb()} project`
+        default: `my ${superb.random()} project`
       },
       {
         name: 'username',

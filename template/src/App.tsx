@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx, css, Global } from '@emotion/core'
 import React, { useState } from 'react'
-import { hot } from 'react-hot-loader/root'
 
 const normalize = css`
   body {
@@ -39,7 +38,7 @@ const link = css`
 `
 
 const App: React.FC = () => {
-  const [tips, setTips] = useState('react is awesome')
+  const [tips, setTips] = useState('react is awesome boy')
   return (
     <React.Fragment>
       <Global styles={normalize} />
@@ -65,4 +64,4 @@ const App: React.FC = () => {
   )
 }
 
-export default hot(App)
+export default App
